@@ -1,0 +1,6 @@
+C:\Users\grant_000\SkyDrive\Documents\Coding Projects\Spreetail Interview\MightyList\MightyList\bin\Debug\MightyList.exe.config
+C:\Users\grant_000\SkyDrive\Documents\Coding Projects\Spreetail Interview\MightyList\MightyList\bin\Debug\MightyList.exe
+C:\Users\grant_000\SkyDrive\Documents\Coding Projects\Spreetail Interview\MightyList\MightyList\bin\Debug\MightyList.pdb
+C:\Users\grant_000\SkyDrive\Documents\Coding Projects\Spreetail Interview\MightyList\MightyList\obj\Debug\MightyList.csprojResolveAssemblyReference.cache
+C:\Users\grant_000\SkyDrive\Documents\Coding Projects\Spreetail Interview\MightyList\MightyList\obj\Debug\MightyList.exe
+C:\Users\grant_000\SkyDrive\Documents\Coding Projects\Spreetail Interview\MightyList\MightyList\obj\Debug\MightyList.pdb
