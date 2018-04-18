@@ -52,6 +52,7 @@ namespace MightyList
             {
                 for (int i = 0; i < ListData.Count; i++)
                 {
+                    // Account for newline at end of file
                     if (i == ListData.Count - 1)
                         sw.Write(ListData.ElementAt(i));
                     else
@@ -71,6 +72,7 @@ namespace MightyList
             {
                 for (int i = 0; i < ListData.Count; i++)
                 {
+                    // Account for newline at end of file
                     if (i == ListData.Count - 1)
                         sw.Write(ListData.ElementAt(i));
                     else
