@@ -48,7 +48,16 @@ namespace MightyList
         {
             ListData.RemoveAt(itemNumber);
 
-            File.WriteAllLines(ListPath, ListData);
+            using (StreamWriter sw = new StreamWriter(ListPath, false))
+            {
+                for (int i = 0; i < ListData.Count; i++)
+                {
+                    if (i == ListData.Count - 1)
+                        sw.Write(ListData.ElementAt(i));
+                    else
+                        sw.WriteLine(ListData.ElementAt(i));
+                }
+            }               
         }
 
         // Combine any duplicates found in the list
@@ -58,7 +67,16 @@ namespace MightyList
 
             ListData = duplicateFree;
 
-            File.WriteAllLines(ListPath, duplicateFree);
+            using (StreamWriter sw = new StreamWriter(ListPath, false))
+            {
+                for (int i = 0; i < ListData.Count; i++)
+                {
+                    if (i == ListData.Count - 1)
+                        sw.Write(ListData.ElementAt(i));
+                    else
+                        sw.WriteLine(ListData.ElementAt(i));
+                }
+            }
         }
     }
 }
